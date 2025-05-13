@@ -26,6 +26,40 @@ export default function HomePage() {
         </ul>
       </div>
 
+      <div className="mt-16 max-w-4xl text-center">
+        <h2 className="text-2xl font-semibold mb-2">How VaniPost Works</h2>
+        <ul className="list-disc text-left text-lg pl-6 space-y-2">
+          <li>1️⃣ Fetches trending news & insights</li>
+          <li>2️⃣ Uses AI to craft intelligent social posts</li>
+          <li>3️⃣ Schedules and publishes to X, Instagram (and more)</li>
+          <li>4️⃣ Personalized for each user’s audience and tone</li>
+        </ul>
+      </div>
+
+      <div className="mt-16 max-w-2xl text-center">
+        <h2 className="text-2xl font-semibold mb-2">About the Team</h2>
+        <p className="text-lg text-gray-600 mb-4">
+          VaniPost is founded by a team of engineers and data scientists passionate about automating content creation. We're building an AI-first platform to help creators stay relevant without spending hours online.
+        </p>
+        <div className="space-y-4">
+          <div>
+            <p className="text-lg font-medium">Ajay Rajput</p>
+            <p className="text-gray-600">Founder & AI/Cloud Architect</p>
+            <a href="https://www.linkedin.com/in/iamapsrajput" className="text-blue-500 text-sm" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          </div>
+          <div>
+            <p className="text-lg font-medium">Vikrant Rajput</p>
+            <p className="text-gray-600">Data Scientist — News Intelligence and Language Modeling</p>
+            <a href="https://www.linkedin.com/in/iamvikrantrajput" className="text-blue-500 text-sm" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          </div>
+          <div>
+            <p className="text-lg font-medium">Siddharth Singh</p>
+            <p className="text-gray-600">Full Stack Developer — UI/UX and Integration</p>
+            <a href="https://www.linkedin.com/in/imsiddharthsingh" className="text-blue-500 text-sm" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          </div>
+        </div>
+      </div>
+
       <footer className="mt-24 text-sm text-gray-500">
         &copy; {new Date().getFullYear()} VaniPost. All rights reserved.
       </footer>
