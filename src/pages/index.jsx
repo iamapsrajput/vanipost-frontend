@@ -4,9 +4,10 @@ export default function HomePage() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center bg-white text-gray-800 p-6">
       <div className="text-center max-w-2xl">
-        <h1 className="text-4xl md:text-6xl font-bold mb-4">
+        <h1 className="text-4xl md:text-6xl font-bold mb-2">
           VaniPost
         </h1>
+        <p className="text-base text-blue-600 mb-2 font-medium tracking-wide uppercase">Your Voice, Your Reach — Automated</p>
         <p className="text-lg md:text-xl mb-6">
           AI-powered content automation platform that helps creators and professionals
           stay active on social media — without manually crafting posts.
@@ -45,23 +46,26 @@ export default function HomePage() {
           <div>
             <p className="text-lg font-medium">Ajay Rajput</p>
             <p className="text-gray-600">Founder & AI/Cloud Architect</p>
-            <a href="https://www.linkedin.com/in/iamapsrajput" className="text-blue-500 text-sm" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/ajayrajput" className="text-blue-500 text-sm" target="_blank" rel="noopener noreferrer">LinkedIn</a>
           </div>
           <div>
             <p className="text-lg font-medium">Vikrant Rajput</p>
             <p className="text-gray-600">Data Scientist — News Intelligence and Language Modeling</p>
-            <a href="https://www.linkedin.com/in/iamvikrantrajput" className="text-blue-500 text-sm" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/vikrantrajput" className="text-blue-500 text-sm" target="_blank" rel="noopener noreferrer">LinkedIn</a>
           </div>
           <div>
             <p className="text-lg font-medium">Siddharth Singh</p>
             <p className="text-gray-600">Full Stack Developer — UI/UX and Integration</p>
-            <a href="https://www.linkedin.com/in/imsiddharthsingh" className="text-blue-500 text-sm" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/siddharthsingh" className="text-blue-500 text-sm" target="_blank" rel="noopener noreferrer">LinkedIn</a>
           </div>
         </div>
       </div>
 
-      <footer className="mt-24 text-sm text-gray-500">
-        &copy; {new Date().getFullYear()} VaniPost. All rights reserved.
+      <footer className="mt-24 text-sm text-gray-500 text-center">
+        <p>&copy; {new Date().getFullYear()} VaniPost. All rights reserved.</p>
+        <p className="mt-2">
+          <a href="/terms-of-service" className="underline text-blue-500">Terms of Service</a>
+        </p>
       </footer>
     </main>
   );
